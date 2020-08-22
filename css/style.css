@@ -295,6 +295,11 @@ body {
 		border-width: 10px;
 	}
 }
+@media (max-width: 980px) {
+	.project-text {
+		margin-left: 15px;
+	}
+}
 @media (max-width: 836px) {
 	.hero-content {
 		flex-direction: column;
@@ -312,6 +317,9 @@ body {
 	}
 	.projects-slide {
 		flex-direction: column;
+	}
+	.project-text {
+		margin-left: 0;
 	}
 	.project-image {
 		margin-bottom: 46px;
