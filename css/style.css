@@ -78,6 +78,7 @@ body {
 	font-size: 12px;
 	line-height: 14px;
 	text-transform: uppercase;
+	cursor: pointer;
 }
 .hero-avatar {
 	width: 389px;
@@ -120,6 +121,9 @@ body {
 	margin: 0;
 }
 /* projects */
+.swiper-slide-next {
+	opacity: 0;
+}
 .projects {
 	background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
 }
